@@ -1,0 +1,22 @@
+:root { --bg:#0b0f17; --fg:#e6e9ef; --accent:#77baff; --muted:#9aa4b2; }
+* { box-sizing: border-box; }
+html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui,Segoe UI,Roboto,Inter,sans-serif; }
+.wrap { max-width:1100px; margin:0 auto; padding:4rem 1.25rem; }
+header { text-align:center; padding-top:7vh; }
+h1 { font-size:3rem; letter-spacing:.5px; margin:.5rem 0; font-weight:800; }
+.dot { color:var(--accent); }
+p { color:var(--muted); margin:.5rem 0 1.5rem; }
+.btn { display:inline-block; padding:.75rem 1.1rem; border-radius:12px; background:var(--accent); color:#031023; text-decoration:none; font-weight:700; }
+.grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+article { padding:1rem; border:1px solid #1b2231; border-radius:14px; background:rgba(255,255,255,.02); }
+@media (max-width:900px){ .grid{grid-template-columns:1fr 1fr} }
+@media (max-width:600px){ .grid{grid-template-columns:1fr} h1{font-size:2.4rem} }
+.wave{
+  position:fixed; left:0; right:0; bottom:-40vh; height:60vh;
+  background:
+    radial-gradient(60% 80% at 50% 120%, rgba(119,186,255,.45) 0%, transparent 60%),
+    radial-gradient(40% 60% at 30% 120%, rgba(119,186,255,.25) 0%, transparent 60%),
+    radial-gradient(40% 60% at 70% 120%, rgba(119,186,255,.25) 0%, transparent 60%);
+  filter: blur(40px) saturate(120%);
+  pointer-events:none;
+}
