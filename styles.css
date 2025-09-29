@@ -142,10 +142,7 @@ body {
     font-weight: 900;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #fff, #7877c6, #ff77c6);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
     animation: fadeInUp 1s ease-out;
     text-shadow: 0 0 30px rgba(120, 119, 198, 0.5);
     filter: drop-shadow(0 0 20px rgba(255, 119, 198, 0.3));
