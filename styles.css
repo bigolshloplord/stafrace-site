@@ -37,6 +37,7 @@ body {
     margin-bottom: 0.75rem;
     font-weight: 300;
     font-style: italic;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     animation: fadeInUp 1s ease-out 0.1s both;
 }
 
@@ -46,6 +47,7 @@ body {
     opacity: 0.9 !important;
     margin-top: 0.75rem;
     font-weight: 400;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     animation: fadeInUp 1s ease-out 0.2s both;
 }
 
@@ -143,9 +145,10 @@ body {
 
 .hero-title {
     font-size: clamp(4rem, 12vw, 8rem);
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 0.75rem;
     letter-spacing: -0.02em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #ffffff !important;
     opacity: 1 !important;
     animation: fadeInUp 1s ease-out;
