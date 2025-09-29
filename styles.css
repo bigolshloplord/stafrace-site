@@ -31,7 +31,8 @@ body {
 
 .hero-tagline {
     font-size: clamp(1.2rem, 3vw, 1.5rem);
-    color: rgba(255, 255, 255, 0.9);
+    color: #ffffff !important;
+    opacity: 0.9 !important;
     margin-top: 1rem;
     font-weight: 400;
     animation: fadeInUp 1s ease-out 0.2s both;
@@ -134,7 +135,8 @@ body {
     font-weight: 900;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
-    color: #fff;
+    color: #ffffff !important;
+    opacity: 1 !important;
     animation: fadeInUp 1s ease-out;
 }
 
